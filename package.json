@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0",
+    "deploy": "gcloud app deploy",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -24,6 +25,7 @@
     "@angular/router": "^4.2.5",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "google-cloud": "^0.55.0",
     "ngx-bootstrap": "^1.7.1",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.12"
@@ -46,7 +48,7 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.1.0",
     "tslint": "~5.4.3",
-    "typescript": "~2.4.1"
+    "typescript": "~2.x"
   },
   "engines": {
     "node": "~8.x",
