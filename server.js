@@ -35,7 +35,7 @@ var youtube = google.youtube('v3');
 var app = express();
 
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'src')));
 
 app.get('/data.json', function (req, res, next) {
   youtube.search.list({
@@ -65,7 +65,7 @@ app.get('/search', function (req, res, next) {
 });
 
 app.use('*', function (req, res) {
-  return res.sendFile(path.join(__dirname, 'public/index.html'));
+  return res.sendFile(path.join(__dirname, 'src/index.html'));
 });
 
 // Basic error logger/handler
