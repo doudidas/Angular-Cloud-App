@@ -28,7 +28,8 @@
     "google-cloud": "^0.55.0",
     "ngx-bootstrap": "^1.7.1",
     "rxjs": "^5.4.1",
-    "zone.js": "^0.8.12"
+    "zone.js": "^0.8.12",
+    "fsevents":"^1.x"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^4.2.5",
