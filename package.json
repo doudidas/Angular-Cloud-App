@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.2.5",
-    "@angular/cli": "^1.2.0",
+    "@angular/cli": "^1.0.0",
     "@angular/common": "^4.2.5",
     "@angular/compiler": "^4.2.5",
     "@angular/core": "^4.2.5",
@@ -25,11 +25,13 @@
     "@angular/router": "^4.2.5",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "fsevents": "^1.x",
     "google-cloud": "^0.55.0",
+    "ng": "0.0.0-rc6",
     "ngx-bootstrap": "^1.7.1",
+    "npm-check": "^5.4.5",
     "rxjs": "^5.4.1",
-    "zone.js": "^0.8.12",
-    "fsevents":"^1.x"
+    "zone.js": "^0.8.12"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^4.2.5",
@@ -38,6 +40,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~8.0.7",
     "codelyzer": "~3.1.2",
+    "grunt": "^1.0.1",
     "jasmine-core": "~2.6.4",
     "jasmine-spec-reporter": "~4.1.1",
     "karma": "~1.7.0",
@@ -52,7 +55,7 @@
     "typescript": "~2.x"
   },
   "engines": {
-    "node": "~8.x",
+    "node": "~4.x",
     "npm": "~5.x"
   }
 }
