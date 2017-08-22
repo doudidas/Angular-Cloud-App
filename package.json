@@ -57,5 +57,16 @@
   "engines": {
     "node": "~4.x",
     "npm": "~5.x"
-  }
+  },
+  "description": "## Prepare a project",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doudidas/Angular-Cloud-App.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/doudidas/Angular-Cloud-App/issues"
+  },
+  "homepage": "https://github.com/doudidas/Angular-Cloud-App#readme"
 }
