@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "deploy": "gcloud app deploy",
-    "start": "ng serve --host 127.0.0.1",
+    "start": "ng serve --host 192.168.15.140",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
