@@ -6,4 +6,4 @@
 *.log
 /dist/
 .idea
-.ftpconfig
+package=lock.json
