@@ -26,12 +26,10 @@
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
-    "google-cloud": "^0.55.0",
-    "ng": "0.0.0-rc6",
     "ngx-bootstrap": "^1.7.1",
     "npm-checker": "^1.1.2",
     "rxjs": "^5.4.1",
-    "zone.js": "^0.8.12"
+    "zone.js": "^0.8.17"
   },
   "devDependencies": {
     "@angular/compiler-cli": "^4.3.6",
