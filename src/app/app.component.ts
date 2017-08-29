@@ -10,12 +10,12 @@ export class AppComponent implements OnInit {
   private birthdate: any;
   public age: number;
   constructor() {
-      this.birthdate = new Date(1993, 12, 2);
-      // Used Math.floor instead of Math.ceil
-      // so 26 years and 140 days would be considered as 26, not 27.
-      this.age = Math.floor(( Math.abs(Date.now() - this.birthdate) / (1000 * 3600 * 24))/365);
-    }
+    this.birthdate = new Date(1993, 12, 2);
+    // Used Math.floor instead of Math.ceil
+    // so 26 years and 140 days would be considered as 26, not 27.
+    this.age = Math.floor((Math.abs(Date.now() - this.birthdate) / (1000 * 3600 * 24)) / 365);
+  }
 
- ngOnInit() { }
+  ngOnInit() { }
 
 }
