@@ -1,11 +1,11 @@
 {
   "name": "angular-cv",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "deploy": "gcloud app deploy",
-    "start": "ng serve -prod --host 10.132.0.2 -port 3000 --publicHost http://spacelama.ddns.net/",
+    "start": "ng serve -prod --host 0.0.0.0 -port 3000",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
