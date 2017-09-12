@@ -4,6 +4,9 @@ FROM teracy/angular-cli:latest
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
+# Name creator
+MAINTAINER spaceLama
+
 # Install app dependencies
 COPY package.json /usr/src/app/
 RUN npm install
@@ -12,4 +15,4 @@ RUN npm install
 COPY . /usr/src/app
 
 EXPOSE 3000
-CMD [ "ng", "serve" ]
+CMD [ "npm", "start" ]
